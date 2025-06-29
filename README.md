@@ -22,12 +22,14 @@ downgrade gcc13 gcc13-libs
 *  vim  ComfyUI/custom_nodes/ComfyUI-3D-Pack/requirements.txt
 * comment out the diso git link and add regular diso
 * 
-
+* pip install xformers==0.0.30
+* 
 * downgrade glibc to 2.40
 * pip install diso
 * 
 
 * source ComfyUi/venv/bin/activate
 
-* pip install xformers==0.0.30
+* python install.py (from 3d directory)
+* pip install pyhocon torchtyping jaxtyping iopath  easydict plotly
 * 
